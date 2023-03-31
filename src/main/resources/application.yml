@@ -1,0 +1,12 @@
+server:
+  port: 9296
+
+spring:
+  application:
+   name: CONFIG-Server
+  cloud:
+   config:
+    server:
+     git:
+      uri: https://github.com/sunny13nitk/DCB-MS-Config_Server
+      clone-on-start: true
